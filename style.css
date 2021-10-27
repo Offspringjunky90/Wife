@@ -63,44 +63,11 @@ h2 {
     display: none;
   }
   
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
+
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
@@ -123,7 +90,7 @@ h2 {
   }
 
   #dot {
-    margin-left: 150px;
+    margin-left: 40px;
   }
   
   .active, .dot:hover {
@@ -148,10 +115,38 @@ h2 {
     to {opacity: 1}
   }
 
-  h3 {
+  #main2Container {
+    width: 475px;
     text-align: center;
+    display: inline-block;
   }
 
-  #year2para {
-    text-align: center;
+
+
+
+
+
+  @media screen and (max-width: 576px) {
+    #year1pic2 {
+      float: none;
+      align-items: center;
+    }
+    #year1pic2 {
+      float: none;
+      margin-top: 10px;
+    }
+    .slideshow-container {
+      margin-left: 0px;
+      /* margin-right: 400px; */
+    }
+    #year2pic2 {
+      float: none
+    }
+    #year2pic2 {
+      float: none;
+      margin-top: 10px;
+    }
   }
+
+
+  
